@@ -253,6 +253,6 @@ export const contactConfig = {
   // Example for Web3Forms: Obtain a free access key from https://web3forms.com
   // Example for Formspree: Create a form at https://formspree.io and get the endpoint ID
   serviceProvider: "web3forms", // "web3forms" | "formspree" | "simulated"
-  accessKey: "YOUR-WEB3FORMS-ACCESS-KEY-HERE", // Replace with your actual key/ID or leave as is
+  accessKey: process.env.NEXT_PUBLIC_CONTACT_KEY || "YOUR-WEB3FORMS-ACCESS-KEY-HERE", // Accesses Vercel Env Vars or falls back
   simulatedSuccessMessage: "Message sent successfully! (This is a mock send. Set up a Web3Forms key in portfolioData.js to receive actual emails.)"
 };
