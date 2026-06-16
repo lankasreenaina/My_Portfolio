@@ -106,7 +106,7 @@ export const skillCategories = [
   },
   {
     category: "Databases & Tools",
-    skills: ["MongoDB", "MySQL", "Neo4j", "Git", "GitHub", "AWS", "Vercel"]
+    skills: ["MongoDB", "MySQL", "Git", "GitHub", "AWS", "Vercel"]
   }
 ];
 
@@ -119,9 +119,9 @@ export const projects = [
     title: "DentalXNet",
     description: "AI-powered dental radiograph analysis platform for automated detection and localisation of dental conditions using YOLOv8 and RT-DETR.",
     tech: ["PyTorch", "FastAPI", "Next.js", "Vercel"],
-    githubUrl: "https://github.com/sreenainalanka/DentalXNet", // Update when available
-    demoUrl: "https://dentalxnet.vercel.app", // Update when available
-    image: "/projects/dentalxnet.png", // Reserved file path
+    githubUrl: "https://github.com/lankasreenaina/DentalXNet", // Update when available
+    demoUrl: "https://dental-x-net.vercel.app/", // Update when available
+    image: "public\projects\dentalxnet.png", // Reserved file path
     featured: true,
     visible: true,
     status: "Completed",
@@ -132,9 +132,9 @@ export const projects = [
     title: "AI Wi-Fi Security & Risk Assessment",
     description: "Machine learning-based network anomaly detection and security assessment platform that analyzes packet features to detect intrusions.",
     tech: ["Python", "FastAPI", "React", "Scikit-learn"],
-    githubUrl: "https://github.com/sreenainalanka/wifi-security",
+    githubUrl: "https://github.com/lankasreenaina/Wifi-securtity-and-risk-assessment",
     demoUrl: "#",
-    image: "/projects/wifi-security.png",
+    image: "public\projects\wifi-security.png",
     featured: false,
     visible: true,
     status: "Completed",
@@ -144,7 +144,7 @@ export const projects = [
     title: "Course Feedback System",
     description: "A secure dashboard for students to submit anonymous course evaluations, enabling professors to track sentiment and improve instruction.",
     tech: ["Java", "Spring Boot", "MySQL", "React"],
-    githubUrl: "https://github.com/sreenainalanka/course-feedback",
+    githubUrl: "https://github.com/lankasreenaina/Course-Feedback-System",
     demoUrl: "#",
     image: "", // Empty path will automatically fallback to a beautiful SVG/CSS gradient
     featured: false,
@@ -156,7 +156,7 @@ export const projects = [
     title: "College Feedback Classifier",
     description: "An NLP-based text classification tool designed to categorize college student feedback comments into administrative, academic, or facility clusters.",
     tech: ["Python", "NLTK", "Scikit-learn", "Flask"],
-    githubUrl: "https://github.com/sreenainalanka/feedback-classifier",
+    githubUrl: "https://github.com/lankasreenaina/College-feedback-classifier",
     demoUrl: "#",
     image: "",
     featured: false,
@@ -253,6 +253,6 @@ export const contactConfig = {
   // Example for Web3Forms: Obtain a free access key from https://web3forms.com
   // Example for Formspree: Create a form at https://formspree.io and get the endpoint ID
   serviceProvider: "web3forms", // "web3forms" | "formspree" | "simulated"
-  accessKey: process.env.NEXT_PUBLIC_CONTACT_KEY || "YOUR-WEB3FORMS-ACCESS-KEY-HERE", // Accesses Vercel Env Vars or falls back
+  accessKey: process.env.NEXT_PUBLIC_CONTACT_KEY || "eff08a63-6376-44c8-b99c-3281825797af", // Accesses Vercel Env Vars or falls back
   simulatedSuccessMessage: "Message sent successfully! (This is a mock send. Set up a Web3Forms key in portfolioData.js to receive actual emails.)"
 };

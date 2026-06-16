@@ -14,7 +14,7 @@ export default function ResumeSection() {
           <h2 className="text-xs font-semibold tracking-wider text-primary-accent uppercase mb-2">
             Credentials
           </h2>
-          <div className="h-[2px] w-12 bg-primary-accent rounded-full mb-4" />
+          <div className="h-0.5 w-12 bg-primary-accent rounded-full mb-4" />
           <h3 className="text-3xl font-bold tracking-tight text-text-main">
             Curriculum Vitae
           </h3>
@@ -82,7 +82,7 @@ export default function ResumeSection() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="lg:col-span-5 flex justify-center"
           >
-            <div className="relative w-full max-w-[320px] aspect-[1/1.414] rounded-2xl border border-border-custom bg-card-bg/30 p-6 shadow-2xl relative overflow-hidden group hover:border-primary-accent/20 transition-all duration-300">
+            <div className="w-full max-w-[320px] aspect-[1/1.414] rounded-2xl border border-border-custom bg-card-bg/30 p-6 shadow-2xl relative overflow-hidden group hover:border-primary-accent/20 transition-all duration-300">
               
               {/* Background design accents */}
               <div className="absolute top-0 right-0 w-24 h-24 bg-[radial-gradient(circle_at_top_right,rgba(56,189,248,0.12),transparent)]" />

@@ -16,7 +16,7 @@ export default function Certifications() {
           <h2 className="text-xs font-semibold tracking-wider text-secondary-accent uppercase mb-2">
             Accreditation
           </h2>
-          <div className="h-[2px] w-12 bg-secondary-accent rounded-full mb-4" />
+          <div className="h-0.5 w-12 bg-secondary-accent rounded-full mb-4" />
           <h3 className="text-3xl font-bold tracking-tight text-text-main">
             Certifications
           </h3>
@@ -35,7 +35,7 @@ export default function Certifications() {
             >
               
               {/* Badge Visual representation / Fallback */}
-              <div className="w-full aspect-video rounded-xl bg-gradient-to-br from-[#111827] to-[#1F2937]/30 border border-border-custom/60 flex items-center justify-center relative overflow-hidden mb-4">
+              <div className="w-full aspect-video rounded-xl bg-linear-to-br from-[#111827] to-[#1F2937]/30 border border-border-custom/60 flex items-center justify-center relative overflow-hidden mb-4">
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(34,197,94,0.04),transparent_60%)]" />
                 <div className="p-4 rounded-full bg-secondary-accent/5 border border-secondary-accent/10 text-secondary-accent group-hover:scale-110 transition-transform duration-500">
                   <ShieldCheck size={28} />
