@@ -35,8 +35,8 @@ export default function Certifications() {
             >
               
               {/* Badge Visual representation / Fallback */}
-              <div className="w-full aspect-video rounded-xl bg-linear-to-br from-[#111827] to-[#1F2937]/30 border border-border-custom/60 flex items-center justify-center relative overflow-hidden mb-4">
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(34,197,94,0.04),transparent_60%)]" />
+              <div className="w-full aspect-video rounded-xl bg-linear-to-br from-[#120E22] to-[#1F1A3A]/30 border border-border-custom/60 flex items-center justify-center relative overflow-hidden mb-4">
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(251,113,133,0.04),transparent_60%)]" />
                 <div className="p-4 rounded-full bg-secondary-accent/5 border border-secondary-accent/10 text-secondary-accent group-hover:scale-110 transition-transform duration-500">
                   <ShieldCheck size={28} />
                 </div>

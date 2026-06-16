@@ -12,28 +12,28 @@
 
 /* Default Dark Theme Settings */
 :root {
-  --background: #0B0F19;
-  --card-bg: #111827;
-  --text-color: #F9FAFB;
-  --text-muted: #9CA3AF;
-  --primary: #38BDF8;      /* Primary Accent: Sky Blue */
-  --secondary: #22C55E;    /* Secondary Accent: Green */
-  --border-color: #1F2937;  /* Dark Border */
+  --background: #0B0813;    /* Premium dark obsidian purple */
+  --card-bg: #120E22;       /* Deep purple-gray card bg */
+  --text-color: #F3F4F6;    /* Cool gray text */
+  --text-muted: #9E98B3;    /* Soft lavender-gray text */
+  --primary: #A78BFA;      /* Primary Accent: Lavender/Violet */
+  --secondary: #FB7185;    /* Secondary Accent: Coral Rose */
+  --border-color: #1F1A3A;  /* Deep purple-gray border */
   
-  --foreground: #F9FAFB;
+  --foreground: #F3F4F6;
 }
 
 /* Light Theme overrides */
 html.light {
-  --background: #F9FAFB;
-  --card-bg: #FFFFFF;
-  --text-color: #111827;
-  --text-muted: #4B5563;
-  --primary: #0284C7;      /* Sky Blue (Darker for readability) */
-  --secondary: #16A34A;    /* Green (Darker for readability) */
-  --border-color: #E5E7EB;  /* Light Border */
+  --background: #FAF9FF;    /* Lilac-tinted white background */
+  --card-bg: #FFFFFF;       /* Pure white card bg */
+  --text-color: #110D26;    /* Very dark purple-gray text */
+  --text-muted: #686282;    /* Slate-purple text */
+  --primary: #7C3AED;      /* Primary Accent: Rich purple */
+  --secondary: #E11D48;    /* Secondary Accent: Rose-red */
+  --border-color: #E9E5F5;  /* Soft lavender-gray border */
   
-  --foreground: #111827;
+  --foreground: #110D26;
 }
 
 /* Global Custom Resets */
@@ -51,7 +51,7 @@ body {
 
 /* Premium Glassmorphism Utility */
 .glass {
-  background-color: rgba(17, 24, 39, 0.75);
+  background-color: rgba(18, 14, 34, 0.75);
   backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -69,13 +69,13 @@ html.light .glass {
 }
 
 .glow-card:hover {
-  border-color: rgba(56, 189, 248, 0.3);
-  box-shadow: 0 10px 30px -10px rgba(56, 189, 248, 0.15);
+  border-color: color-mix(in srgb, var(--primary) 30%, transparent);
+  box-shadow: 0 10px 30px -10px color-mix(in srgb, var(--primary) 15%, transparent);
 }
 
 html.light .glow-card:hover {
-  border-color: rgba(2, 132, 199, 0.2);
-  box-shadow: 0 10px 30px -10px rgba(2, 132, 199, 0.1);
+  border-color: color-mix(in srgb, var(--primary) 20%, transparent);
+  box-shadow: 0 10px 30px -10px color-mix(in srgb, var(--primary) 10%, transparent);
 }
 
 /* Custom premium scrollbar */

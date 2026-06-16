@@ -55,7 +55,7 @@ export default function ResumeSection() {
                 href={personalInfo.resumeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center space-x-2 bg-primary-accent hover:bg-primary-accent/90 text-[#0B0F19] font-bold text-sm px-6 py-3 rounded-xl transition-all duration-200 cursor-pointer shadow-lg shadow-primary-accent/10"
+                className="inline-flex items-center space-x-2 bg-primary-accent hover:bg-primary-accent/90 text-[#0B0813] font-bold text-sm px-6 py-3 rounded-xl transition-all duration-200 cursor-pointer shadow-lg shadow-primary-accent/10"
               >
                 <ExternalLink size={15} />
                 <span>View Full Resume</span>
@@ -85,7 +85,7 @@ export default function ResumeSection() {
             <div className="w-full max-w-[320px] aspect-[1/1.414] rounded-2xl border border-border-custom bg-card-bg/30 p-6 shadow-2xl relative overflow-hidden group hover:border-primary-accent/20 transition-all duration-300">
               
               {/* Background design accents */}
-              <div className="absolute top-0 right-0 w-24 h-24 bg-[radial-gradient(circle_at_top_right,rgba(56,189,248,0.12),transparent)]" />
+              <div className="absolute top-0 right-0 w-24 h-24 bg-[radial-gradient(circle_at_top_right,rgba(167,139,250,0.12),transparent)]" />
               
               {/* Preview Sheet details */}
               <div className="space-y-4 h-full flex flex-col justify-between select-none">
@@ -133,7 +133,7 @@ export default function ResumeSection() {
               </div>
 
               {/* Hover Overlay Visual Action Indicator */}
-              <div className="absolute inset-0 bg-[#0B0F19]/80 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+              <div className="absolute inset-0 bg-[#0B0813]/80 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                 <div className="p-3.5 rounded-full bg-primary-accent/15 text-primary-accent border border-primary-accent/30 mb-2">
                   <FileText size={22} />
                 </div>

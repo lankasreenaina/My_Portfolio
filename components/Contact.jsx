@@ -292,7 +292,7 @@ export default function Contact() {
                 <button
                   type="submit"
                   disabled={status === "submitting" || status === "success"}
-                  className="w-full inline-flex items-center justify-center space-x-2 bg-primary-accent hover:bg-primary-accent/90 disabled:bg-primary-accent/40 text-[#0B0F19] font-bold text-sm px-6 py-3 rounded-xl transition-all duration-200 cursor-pointer disabled:cursor-not-allowed shadow-lg shadow-primary-accent/15"
+                  className="w-full inline-flex items-center justify-center space-x-2 bg-primary-accent hover:bg-primary-accent/90 disabled:bg-primary-accent/40 text-[#0B0813] font-bold text-sm px-6 py-3 rounded-xl transition-all duration-200 cursor-pointer disabled:cursor-not-allowed shadow-lg shadow-primary-accent/15"
                 >
                   <Send size={14} />
                   <span>{status === "submitting" ? "Sending..." : status === "success" ? "Message Sent!" : "Send Message"}</span>

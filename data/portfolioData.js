@@ -8,11 +8,11 @@
 // Centralizes branding, links, and contact parameters for layout and views.
 export const siteConfig = {
   siteName: "Lanka Sree Naina",
-  siteUrl: "https://sreenaina.dev", // Update to your actual domain after deployment
-  email: "sreenainalanka@gmail.com",
-  github: "https://github.com/sreenainalanka",
-  linkedin: "https://www.linkedin.com/in/lanka-sree-naina",
-  leetcode: "https://leetcode.com/u/sreenaina",
+  siteUrl: "https://sreenaina-portfolio.vercel.app/",
+  email: "sreenaina0711@gmail.com",
+  github: "https://github.com/lankasreenaina",
+  linkedin: "https://www.linkedin.com/in/sreenaina-lanka/",
+  leetcode: "https://leetcode.com/u/lankasreenaina/",
 };
 
 // 1. PERSONAL INFORMATION
@@ -26,8 +26,8 @@ export const personalInfo = {
   headline: "VIT Chennai'27 | Full Stack Development | AI/ML Enthusiast | AWS Cloud Foundations",
   bio: "I am a Computer Science student passionate about software engineering, full-stack development, artificial intelligence, and cloud technologies. I enjoy building practical solutions, learning new technologies, and continuously improving my technical skills through projects, coursework, and hands-on development.",
   email: siteConfig.email,
-  resumeUrl: "/resume/resume.pdf",     // Points to public/resume/resume.pdf
-  profileImageUrl: "/profile/profile.jpg", // Points to public/profile/profile.jpg
+  resumeUrl: "/resume/resume.pdf",
+  profileImageUrl: "/profile/profile.jpg",
 };
 
 // 2. SOCIAL & CODING LINKS
@@ -121,7 +121,7 @@ export const projects = [
     tech: ["PyTorch", "FastAPI", "Next.js", "Vercel"],
     githubUrl: "https://github.com/lankasreenaina/DentalXNet", // Update when available
     demoUrl: "https://dental-x-net.vercel.app/", // Update when available
-    image: "public\projects\dentalxnet.png", // Reserved file path
+    image: "/projects/dentalxnet.png", // Reserved file path
     featured: true,
     visible: true,
     status: "Completed",
@@ -132,9 +132,9 @@ export const projects = [
     title: "AI Wi-Fi Security & Risk Assessment",
     description: "Machine learning-based network anomaly detection and security assessment platform that analyzes packet features to detect intrusions.",
     tech: ["Python", "FastAPI", "React", "Scikit-learn"],
-    githubUrl: "https://github.com/lankasreenaina/Wifi-securtity-and-risk-assessment",
+    githubUrl: "https://github.com/lankasreenaina/Wifi-security-and-risk-assessment",
     demoUrl: "#",
-    image: "public\projects\wifi-security.png",
+    image: "/projects/wifi-security.png",
     featured: false,
     visible: true,
     status: "Completed",
@@ -146,7 +146,7 @@ export const projects = [
     tech: ["Java", "Spring Boot", "MySQL", "React"],
     githubUrl: "https://github.com/lankasreenaina/Course-Feedback-System",
     demoUrl: "#",
-    image: "", // Empty path will automatically fallback to a beautiful SVG/CSS gradient
+    image: "/projects/course_feedback.png",
     featured: false,
     visible: true,
     status: "Completed",

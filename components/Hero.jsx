@@ -95,7 +95,7 @@ export default function Hero() {
                 href={personalInfo.resumeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center space-x-2 bg-primary-accent hover:bg-primary-accent/90 text-[#0B0F19] font-semibold text-sm px-6 py-3 rounded-xl transition-all duration-200 shadow-lg shadow-primary-accent/10 hover:shadow-primary-accent/20 cursor-pointer"
+                className="inline-flex items-center space-x-2 bg-primary-accent hover:bg-primary-accent/90 text-[#0B0813] font-semibold text-sm px-6 py-3 rounded-xl transition-all duration-200 shadow-lg shadow-primary-accent/10 hover:shadow-primary-accent/20 cursor-pointer"
               >
                 <FileText size={16} />
                 <span>View Resume</span>
@@ -164,7 +164,7 @@ export default function Hero() {
                 />
                 
                 {/* Visual glass overlay grid */}
-                <div className="absolute inset-0 bg-linear-to-t from-[#0B0F19]/50 via-transparent to-transparent opacity-80 group-hover:opacity-40 transition-opacity duration-500 pointer-events-none" />
+                <div className="absolute inset-0 bg-linear-to-t from-[#0B0813]/50 via-transparent to-transparent opacity-80 group-hover:opacity-40 transition-opacity duration-500 pointer-events-none" />
               </div>
 
             </div>

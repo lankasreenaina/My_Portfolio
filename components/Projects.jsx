@@ -32,8 +32,8 @@ export default function Projects() {
   const GradientFallback = ({ title }) => {
     const initial = title ? title.charAt(0) : "P";
     return (
-      <div className="w-full h-full min-h-[200px] bg-gradient-to-br from-[#111827] via-[#1F2937]/50 to-[#0B0F19] flex items-center justify-center border border-border-custom/40 rounded-xl relative overflow-hidden transition-all duration-300 group-hover:border-primary-accent/20">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(56,189,248,0.08),transparent_60%)]" />
+      <div className="w-full h-full min-h-[200px] bg-gradient-to-br from-[#120E22] via-[#1F1A3A]/50 to-[#0B0813] flex items-center justify-center border border-border-custom/40 rounded-xl relative overflow-hidden transition-all duration-300 group-hover:border-primary-accent/20">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(167,139,250,0.08),transparent_60%)]" />
         <span className="text-5xl font-black text-primary-accent/20 select-none group-hover:text-primary-accent/30 group-hover:scale-110 transition-all duration-500">
           {initial}
         </span>
@@ -89,7 +89,7 @@ export default function Projects() {
                     <GradientFallback title={featuredProject.title} />
                   )}
                   {/* Glowing Featured Badge */}
-                  <div className="absolute top-4 left-4 bg-primary-accent/90 text-[#0B0F19] text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
+                  <div className="absolute top-4 left-4 bg-primary-accent/90 text-[#0B0813] text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
                     Featured Project
                   </div>
                 </div>
@@ -152,7 +152,7 @@ export default function Projects() {
                           href={featuredProject.demoUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center space-x-2 bg-primary-accent hover:bg-primary-accent/90 text-[#0B0F19] font-bold text-xs px-4 py-2.5 rounded-lg transition-colors cursor-pointer"
+                          className="inline-flex items-center space-x-2 bg-primary-accent hover:bg-primary-accent/90 text-[#0B0813] font-bold text-xs px-4 py-2.5 rounded-lg transition-colors cursor-pointer"
                         >
                           <ExternalLink size={14} />
                           <span>Live Demo</span>

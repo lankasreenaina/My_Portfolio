@@ -50,7 +50,7 @@ export default function MouseGlow() {
         x: springX,
         y: springY,
         opacity: isHovered ? 0.12 : 0,
-        backgroundImage: "radial-gradient(circle, var(--primary) 0%, rgba(56, 189, 248, 0.1) 45%, transparent 70%)"
+        backgroundImage: "radial-gradient(circle, var(--primary) 0%, color-mix(in srgb, var(--primary) 10%, transparent) 45%, transparent 70%)"
       }}
       className="fixed top-0 left-0 w-75 h-75 rounded-full pointer-events-none z-10 filter blur-2xl transition-opacity duration-300"
     />
